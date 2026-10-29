@@ -4,12 +4,12 @@ public class Student {
     private Long id;
     private String name;
     private String email;
-    private int age;
 
-    public Student(String name, String email, int age) {
+
+    public Student(String name, String email) {
         this.name = name;
         this.email = email;
-        this.age = age;
+
     }
 
     public Student() {}
@@ -38,21 +38,14 @@ public class Student {
         this.email = email;
     }
 
-    public int getAge() {
-        return age;
-    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                '}';
-    }
+@Override
+public String toString() {
+    return "Student{" +
+            "id=" + id +
+            ", name='" + name + '\'' +
+            ", email='" + email + '\'' +
+            '}';
+}
 }
