@@ -1,3 +1,4 @@
+// just created a new branch
 package org.example.model;
 
 public class Student {
@@ -5,6 +6,7 @@ public class Student {
     private String name;
     private String email;
     private int age;
+    
 
 
     public Student(String name, String email, int age) {
