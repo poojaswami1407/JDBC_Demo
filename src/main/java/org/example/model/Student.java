@@ -1,4 +1,5 @@
 // just created a new branch
+// need to use stash
 package org.example.model;
 
 public class Student {
