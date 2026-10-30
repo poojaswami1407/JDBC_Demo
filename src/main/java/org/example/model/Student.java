@@ -1,4 +1,4 @@
-// just created a new branch// hello world
+// just created a new branch
 package org.example.model;
 
 public class Student {
